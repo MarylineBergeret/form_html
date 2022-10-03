@@ -51,10 +51,10 @@
         </fieldset>
         <fieldset>
             <legend>Vous vous levez</legend>
-            <label for="lematin">Le matin</label><input type="radio" id="lematin" name="lematin" value="Le matin" checked/><br> 
-            <label for="lemidi">Le midi</label><input type="radio" id="lemidi" name="lemidi" value="Le midi"/><br>
-            <label for="lesoir">Le soir</label><input type="radio" id="lesoir" name="lesoir" value="Le soir"/><br>
-            <label for="enretard">En retard</label><input type="radio" id="enretard" name="enretard" value="En retard"/><br>
+            <label for="lematin">Le matin</label><input type="radio" id="lematin" name="levee" value="lematin" checked/><br> 
+            <label for="lemidi">Le midi</label><input type="radio" id="lemidi" name="levee" value="Le midi"/><br>
+            <label for="lesoir">Le soir</label><input type="radio" id="lesoir" name="levee" value="Le soir"/><br>
+            <label for="enretard">En retard</label><input type="radio" id="enretard" name="levee" value="En retard"/><br>
                
         </fieldset>
         <fieldset>
@@ -62,10 +62,10 @@
 
             <label for="liste">Vous en avez assez ?</label>
             <select name="liste" id="liste">
-                <optgroup>Team pas encore</optgroup>
+                <optgroup label="Team pas encore">
                     <option value="option1">J'en veux plus</option>
                     <option value="option2">C'est super !</option>
-                <optgroup>Team Oula</optgroup>
+                <optgroup label="Team Oula">
                     <option value="option1">J'en peux plus</option>
                     <option value="option2">Pitié !</option>
                 <br>
